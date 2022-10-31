@@ -8,6 +8,7 @@
   "extends": ["eslint:recommended", "google"],
   "rules": {
     "indent": ["error", 4],
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "constructor-super": "off"
   }
 }

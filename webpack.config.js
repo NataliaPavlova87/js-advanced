@@ -37,6 +37,8 @@ module.exports = {
         alias: {
             '@': path.resolve(__dirname, 'src'),
             '@core': path.resolve(__dirname, 'src/core'),
+            '@components': path.resolve(__dirname, 'src/components'),
+            '@utils': path.resolve(__dirname, 'src/utils'),
         },
     },
     plugins: [
@@ -73,8 +75,6 @@ module.exports = {
                     {
                         loader: MiniCssExtractPlugin.loader,
                         options: {
-                            hmr: isDev,
-                            reloadAll: true,
                         },
                     },
                     'css-loader',
