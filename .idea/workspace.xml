@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f904129b-6402-4a19-922e-1a5886742fc0" name="Changes" comment="Конфиг шторма">
-      <change afterPath="$PROJECT_DIR$/src/components/exel/Exel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/DomListeners.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/ExelComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/dom.js" afterDir="false" />
+    <list default="true" id="f904129b-6402-4a19-922e-1a5886742fc0" name="Changes" comment="Проект">
       <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/exel/Exel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/exel/Exel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/dom.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667230154776</updated>
-      <workItem from="1667230159087" duration="2295000" />
+      <workItem from="1667230159087" duration="3008000" />
+      <workItem from="1667310548582" duration="5115000" />
     </task>
     <task id="LOCAL-00001" summary="Конфиг шторма">
       <created>1667230190172</created>
@@ -63,7 +61,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667230190172</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Проект">
+      <created>1667236131040</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667236131041</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Проект">
+      <created>1667236136127</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667236136127</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,9 +91,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Конфиг шторма" />
-    <option name="LAST_COMMIT_MESSAGE" value="Конфиг шторма" />
+    <MESSAGE value="Проект" />
+    <option name="LAST_COMMIT_MESSAGE" value="Проект" />
   </component>
 </project>

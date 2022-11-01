@@ -6,5 +6,5 @@ const exel = new Exel('#app', {
     components: [Header],
 });
 
-exel.createApp();
+exel.render();
 

@@ -9,6 +9,8 @@
   "rules": {
     "indent": ["error", 4],
     "require-jsdoc": "off",
-    "constructor-super": "off"
+    "constructor-super": "off",
+    "operator-linebreak": "off",
+    "no-unused-vars": "off"
   }
 }
