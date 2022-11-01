@@ -18,6 +18,7 @@ class Dom {
     html(html) {
         if (typeof html === 'string') {
             this.el.innerHTML = html;
+            return this;
         }
 
         return this.el.innerHTML.trim();
@@ -25,14 +26,20 @@ class Dom {
 
     clear() {
         this.html('');
+        return this;
     }
 
     append(node) {
+        if (node instanceof Dom) {
+            node = node.el;
+        }
         if (Element.prototype.append) {
             this.el.append(node);
         } else {
             this.el.appendChild(node);
         }
+
+        return this;
     }
 }
 

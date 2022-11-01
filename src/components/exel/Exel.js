@@ -7,16 +7,17 @@ export class Exel {
     }
 
     createApp() {
-        const dom = $(this.selector);
+        const dom = $();
         const root = dom.create('div', 'exel');
 
         this.components.forEach((Component) => {
             const el = dom.create('div', Component.className);
             const component = new Component(el);
             el.html(component.toHtml());
+            root.append(el);
         });
 
-        return root;
+        return root.el;
     }
 
     render() {
