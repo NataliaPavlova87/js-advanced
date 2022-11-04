@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f904129b-6402-4a19-922e-1a5886742fc0" name="Changes" comment="Проект">
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/capitalaze.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/getMethodListenerName.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/exel/Exel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/exel/Exel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/DomListeners.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/DomListeners.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/ExelComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/ExelComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/dom.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +56,9 @@
       <updated>1667230154776</updated>
       <workItem from="1667230159087" duration="3008000" />
       <workItem from="1667310548582" duration="5265000" />
-      <workItem from="1667321072286" duration="1252000" />
+      <workItem from="1667321072286" duration="1539000" />
+      <workItem from="1667364672547" duration="8000" />
+      <workItem from="1667551736022" duration="6463000" />
     </task>
     <task id="LOCAL-00001" summary="Конфиг шторма">
       <created>1667230190172</created>
@@ -81,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667318413435</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Проект">
+      <created>1667322612384</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667322612384</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

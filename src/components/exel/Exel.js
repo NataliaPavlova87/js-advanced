@@ -10,11 +10,12 @@ export class Exel {
         const dom = $();
         const root = dom.create('div', 'exel');
 
-        this.components.forEach((Component) => {
+        this.components = this.components.map((Component) => {
             const el = dom.create('div', Component.className);
             const component = new Component(el);
             el.html(component.toHtml());
             root.append(el);
+            return component;
         });
 
         return root.el;
@@ -22,5 +23,9 @@ export class Exel {
 
     render() {
         this.selector.append(this.createApp());
+
+        this.components.forEach((Component) => {
+            Component.init();
+        });
     }
 }
