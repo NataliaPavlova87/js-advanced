@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f904129b-6402-4a19-922e-1a5886742fc0" name="Changes" comment="Проект">
-      <change afterPath="$PROJECT_DIR$/src/components/table/Table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/table/styles/table.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/table/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/charCode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/getCharCode.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/exel/Exel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/exel/Exel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/table/styles/table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/styles/table.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/table/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/template.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/dom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +58,7 @@
       <workItem from="1667364672547" duration="8000" />
       <workItem from="1667551736022" duration="7185000" />
       <workItem from="1667803728778" duration="9000" />
-      <workItem from="1668008515967" duration="5685000" />
+      <workItem from="1668008515967" duration="7409000" />
     </task>
     <task id="LOCAL-00001" summary="Конфиг шторма">
       <created>1667230190172</created>
@@ -110,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667562871894</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Проект">
+      <created>1668014674721</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668014674721</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

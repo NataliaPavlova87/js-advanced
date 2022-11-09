@@ -8,17 +8,27 @@ function createRow(content, rowCount = '') {
             </div>`;
 }
 
-function createColumn(content, className = '') {
+function createColumn(content = '', className = '') {
     return `<div class="table_col col ${className}">${content}</div>`;
 }
 
-export function createTable(columnCount) {
+export function createTable(columnCount, rowCount = 15) {
     const firstColumns = new Array(columnCount)
         .fill('')
         .map((el, index) => createColumn(getCharCode(CHAR_CODE.A + index), 'col--first'))
         .join(' ');
 
+    const columns = new Array(columnCount)
+        .fill('')
+        .map((el, index) => createColumn())
+        .join(' ');
+
+    const rows = new Array(rowCount)
+        .fill('')
+        .map((el, index) => createRow(columns, String(index)))
+        .join(' ');
+
     const firstRow = createRow(firstColumns);
-    console.log(firstRow);
-    return firstRow;
+
+    return `${firstRow}${rows}`;
 }
