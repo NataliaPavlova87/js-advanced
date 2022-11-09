@@ -8,7 +8,7 @@ export class Exel {
 
     createApp() {
         const dom = $();
-        const root = dom.create('div', 'exel');
+        const root = dom.create('div', ['exel']);
 
         this.components = this.components.map((Component) => {
             const el = dom.create('div', Component.className);

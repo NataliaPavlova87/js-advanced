@@ -12,6 +12,7 @@
     "constructor-super": "off",
     "operator-linebreak": "off",
     "no-unused-vars": "off",
-    "no-debugger": "off"
+    "no-debugger": "off",
+    "max-len": "off"
   }
 }

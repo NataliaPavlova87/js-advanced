@@ -39,6 +39,7 @@ module.exports = {
             '@core': path.resolve(__dirname, 'src/core'),
             '@components': path.resolve(__dirname, 'src/components'),
             '@utils': path.resolve(__dirname, 'src/utils'),
+            '@constants': path.resolve(__dirname, 'src/constants'),
         },
     },
     plugins: [

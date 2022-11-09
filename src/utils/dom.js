@@ -8,8 +8,9 @@ class Dom {
     create(tagName, className) {
         const el = document.createElement(tagName);
 
-        if (className) {
-            el.classList.add(className);
+        if (className && className.length > 0) {
+            console.log(className);
+            className.forEach((item) => el.classList.add(item));
         }
 
         return $(el);
